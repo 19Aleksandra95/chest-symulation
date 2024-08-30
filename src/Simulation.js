@@ -11,5 +11,5 @@ export function validateInput(data) {
 
   if (!isValidTeamName(teamA) || !isValidTeamName(teamB) || teamA === teamB) return false;
   if (!isValidSpeed(teamA) || !isValidSpeed(teamB)) return false;
-  if(isValidSize(teamA) || !isValidSize(teamB)) return false;
+  if(isValidSize(sizeX) || !isValidSize(sizeY)) return false;
 }
